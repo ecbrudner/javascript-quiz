@@ -1,5 +1,6 @@
 var timerElement= document.getElementById("timer-block");
 var startButton= document.getElementById("start-button");
+var quizSection= document.getElementById("quiz-section");
 
 var isCorrect= false;
 var numberCorrect= 0;
@@ -11,6 +12,7 @@ function startQuiz() {
     timerCount = 75;
     startButton.disabled = true;
     startTimer();
+    beginQuizQuestions();
   }
   
 function startTimer() {
@@ -23,6 +25,10 @@ function startTimer() {
         clearInterval(timer);
     }
     }, 1000);
+    
+  }
+
+  function beginQuizQuestions(){
     
   }
 
