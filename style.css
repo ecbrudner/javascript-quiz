@@ -1,0 +1,13 @@
+.homepage {
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.homepage button {
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
